@@ -1,0 +1,5 @@
+Comando de instalação
+npm install create-react-app -g
+
+Criar ums aplicação
+create-react-app app-react
