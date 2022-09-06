@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Hello from './Hello';
 import Clock from './Clock';
+import Clock2 from './Clock2';
 import Props from './Props';
 import State from './State';
 import reportWebVitals from './reportWebVitals';
@@ -12,7 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Props attr="p"  attr2="VALUE2" attr3="VALUE3"/> */}
-    <State/>
+    <Clock2/>
   </React.StrictMode>
 );
 
