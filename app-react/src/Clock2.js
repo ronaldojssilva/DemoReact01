@@ -17,10 +17,12 @@ export default class Clock2 extends Component{
     }
 
    componentDidMount(){
-    setInterval(() => this.updateClock(), 1000);
+    this.timer = setInterval(() => this.updateClock(), 1000);
    }
 
-   componentWillUnmount(){}
+   componentWillUnmount(){
+    clearInterval(this.timer);
+   }
 
    updateClock(){
     this.setState({
