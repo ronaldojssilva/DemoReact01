@@ -20,9 +20,9 @@ export default class Events extends Component{
     // }
 
     //maneira 3, arrow function não guarda contexto
-    clickMethode = () => {
+    clickMethode = async () => {
         console.log(' --- click method begin --- ', this.state.clicked);
-        this.setState({
+        await this.setState({
             clicked: this.state.clicked + 1
         });
         console.log(' --- click method end --- ', this.state.clicked);

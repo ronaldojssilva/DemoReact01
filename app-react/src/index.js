@@ -8,6 +8,7 @@ import Clock2 from './Clock2';
 import Props from './Props';
 import State from './State';
 import Events from './Event';
+import Events2 from './Events2';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
