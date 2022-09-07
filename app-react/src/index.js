@@ -9,13 +9,14 @@ import Props from './Props';
 import State from './State';
 import Events from './Event';
 import Events2 from './Events2';
+import BindInputs from './BindInputs';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Props attr="p"  attr2="VALUE2" attr3="VALUE3"/> */}
-    <Events/>
+    <BindInputs/>
   </React.StrictMode>
 );
 
