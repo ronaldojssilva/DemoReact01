@@ -7,13 +7,14 @@ import Clock from './Clock';
 import Clock2 from './Clock2';
 import Props from './Props';
 import State from './State';
+import Events from './Event';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Props attr="p"  attr2="VALUE2" attr3="VALUE3"/> */}
-    <Clock2/>
+    <Events/>
   </React.StrictMode>
 );
 
