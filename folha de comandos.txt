@@ -1,3 +1,18 @@
+Olá Erick caso esteja querendo criar utilizando a ultima versão do boilerplate de criação de projeto do react você pode utilizar o comando abaixo:
+
+npx create-react-app my-app
+cd my-app
+npm start
+Segue o link:
+
+https://create-react-app.dev/docs/getting-started/
+
+Realmente existem muitos relatos de que o client do react antigo está dando muito conflito para criação. Então estão indicando utilizar o npx.
+
+
+
+
+
 Comando de instalação
 npm install create-react-app -g
 
