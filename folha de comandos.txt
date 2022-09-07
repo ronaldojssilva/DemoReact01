@@ -10,7 +10,7 @@ https://create-react-app.dev/docs/getting-started/
 Realmente existem muitos relatos de que o client do react antigo está dando muito conflito para criação. Então estão indicando utilizar o npx.
 
 
-
+direto ao ponto de como realizar o deploy do React.js no Heroku: https://www.schoolofnet.com/canal-direto-ao-ponto/deploy-reactjs-na-heroku/
 
 
 Comando de instalação
@@ -18,3 +18,8 @@ npm install create-react-app -g
 
 Criar ums aplicação
 create-react-app app-react
+
+
+Instalar o material UI
+npm install @material-ui/core --save
+npm install @material-ui/core --save --force
